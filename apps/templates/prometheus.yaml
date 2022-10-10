@@ -16,8 +16,8 @@ spec:
       values: |
         pushgateway:
           enabled: false
-    repoURL: https://github.com/serbent/argocd-test.git
-    targetRevision: 15.6.0
+    repoURL: https://prometheus-community.github.io/helm-charts
+    targetRevision: 15.15.0
   syncPolicy:
     automated:
       prune: true
